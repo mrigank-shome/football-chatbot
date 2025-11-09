@@ -1,0 +1,208 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Hey there!",
+        "Greetings!"
+      ],
+      "responses": [
+        "Hey!",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "player_team",
+      "patterns": [
+        "Which team is {0} in?",
+        "What team does {0} play for?",
+        "Where does {0} play",
+        "Which team does {0} belong to?",
+        "What's the name of the team {0} plays for?",
+        "Can you tell me which team {0} is on?",
+        "Who is {0} currently playing for?",
+        "I'm curious, what team does {0} play for?",
+        "Do you know which team {0} is a part of?",
+        "What's the team affiliation of {0}?",
+        "Which squad has {0} on its roster?",
+        "What team is {0} a member of?",
+        "Could you inform me of the team that {0} plays for?"
+      ],
+      "responses": [
+        "{player} plays in {team0}."
+      ]
+    },
+    {
+      "tag": "player_score",
+      "patterns": [
+        "What is the player score for {0}?",
+        "How good is {0}?",
+        "Is {0} a good player?",
+        "Can you tell me what the score is for player {0}?",
+        "What's the player score for {0}?",
+        "I'm curious, what's the score for player {0}?",
+        "Could you inform me of the player score for {0}?",
+        "What's the current score for player {0}?",
+        "Do you happen to know the score for player {0}?",
+        "What's the points total for player {0}?",
+        "Can you give me an update on the score for player {0}?",
+        "What's the tally for player {0}?",
+        "I'd like to know what the player score is for {0}, please."
+      ],
+      "responses": [
+        "The player score for {player} is {rating} out of 1."
+      ]
+    },
+    {
+      "tag": "match_fouls",
+      "patterns": [
+        "How many fouls happened in the match between {0} and {1}?",
+        "How many fouls were committed in the match between {0} and {1}?",
+        "Can you tell me the total number of fouls in the match between {0} and {1}?",
+        "I'm curious, what was the foul count in the match between {0} and {1}?",
+        "How many infractions were called in the match between {0} and {1}?",
+        "Do you know how many fouls happened in the match between {0} and {1}?",
+        "What was the number of fouls in the match between {0} and {1}?",
+        "Can you give me the foul count for the match between {0} and {1}?",
+        "How many times were fouls committed in the match between {0} and {1}?",
+        "What was the frequency of fouls in the match between {0} and {1}?",
+        "Could you inform me of the total number of fouls in the match between {0} and {1}?"
+      ],
+      "responses": [
+        "There were {fouls} fouls in the match between {team0} and {team1}."
+      ]
+    },
+    {
+      "tag": "match_subs",
+      "patterns": [
+        "How many substitutions were made in the match between {0} and {1}?",
+        "Can you tell me how many substitutions were made in the match between {0} and {1}?",
+        "What was the total number of substitutions in the match between {0} and {1}?",
+        "How many players were substituted in the match between {0} and {1}?",
+        "What was the substitution count in the match between {0} and {1}?",
+        "Do you know the number of substitutions made in the match between {0} and {1}?",
+        "What was the tally of substitutions in the match between {0} and {1}?",
+        "Can you give me the number of substitutions for the match between {0} and {1}?",
+        "How many times were players substituted in the match between {0} and {1}?",
+        "What was the frequency of substitutions in the match between {0} and {1}?",
+        "Could you inform me of the total number of player substitutions in the match between {0} and {1}?"
+      ],
+      "responses": [
+        "There were {subs} subs in the match between {team0} and {team1}."
+      ]
+    },
+    {
+      "tag": "player_goals",
+      "patterns": [
+        "What is the total number of goals scored by {0}?",
+        "Can you tell me how many goals {0} has scored?",
+        "I'm curious, how many goals has {0} scored so far?",
+        "How many times has {0} found the back of the net?",
+        "Could you give me the goal count for {0}?",
+        "I'd like to know how many goals {0} has scored this season.",
+        "What is the goal tally for {0}?",
+        "How many goals has {0} managed to score?",
+        "May I ask how many times {0} has scored a goal?",
+        "What's the total number of goals that {0} has scored?"
+      ],
+      "responses": [
+        "{player} has scored {goals} number of goals."
+      ]
+    },
+    {
+      "tag": "player_goal_time",
+      "patterns": [
+        "At what point in a match does {0} tend to score?",
+        "When does {0} usually find the back of the net during a match?",
+        "What is {0}'s typical time frame for scoring in a match?",
+        "When is {0} most likely to score during a game?",
+        "At what stage of a match is {0} typically on the scoresheet?",
+        "When does {0} often get their goals during a game?",
+        "What period of a match does {0} tend to score in?",
+        "When is {0} most effective at scoring during a match?",
+        "What is {0}'s usual scoring time during a game?",
+        "At what stage of a match is {0} most dangerous in front of goal?",
+        "When does {0} usually score in a match?"
+      ],
+      "responses": [
+        "{player} has an average scoring timing of {timing} minutes."
+      ]
+    },
+    {
+      "tag": "player_goal_shot",
+      "patterns": [
+        "What part of the net does {0} tend to aim for?",
+        "Which area of the goal does {0} typically target?",
+        "Where does {0} usually direct their shots?",
+        "What is {0}'s preferred shooting location?",
+        "Where does {0} usually place the ball when shooting?",
+        "Which corner of the goal does {0} typically go for?",
+        "What is {0}'s go-to shooting spot?",
+        "Which part of the goal is {0} most likely to hit?",
+        "Where do {0}'s shots tend to go?",
+        "Where does {0} usually shoot?"
+      ],
+      "responses": [
+        "{player} has a preference for shooting {location}."
+      ]
+    },
+    {
+      "tag": "team_score",
+      "patterns": [
+        "What was the result of the match between {0} and {1}?",
+        "What was the final score in the game involving {0} and {1}?",
+        "Can you tell me the outcome of the game between {0} and {1}?",
+        "What was the tally of points for {0} and {1} in the game?",
+        "What was the number of goals scored by {0} and {1} in the match?",
+        "What was the final outcome of the contest between {0} and {1}?",
+        "Can you give me the scorecard for the game featuring {0} and {1}?",
+        "What was the scoreboard reading for the game with {0} and {1}?",
+        "What was the final result of the showdown between {0} and {1}?",
+        "How many points did {0} and {1} score in the match?"
+      ],
+      "responses": [
+        "The outcome of the match between {team0} and {team1} was {score}",
+        "{score} was the conclusion reached between {team0} and {team1}",
+        "The end result between {team0} and {team1} was {score}",
+        "The outcome of between {team0} and {team1} was {score}",
+        "{score} was the outcome between {team0} and {team1}",
+        "The conclusion of the match between {team0} and {team1} was {score}"
+      ]
+    }
+  ]
+}
